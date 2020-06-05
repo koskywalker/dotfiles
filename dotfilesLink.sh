@@ -1,3 +1,3 @@
 #!/bin/sh
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.vscode/settings.json ~/Library/Application\ Support/Code/User
+ln -sf ~/GitKoSkywalker/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/GitKoSkywalker/dotfiles/.vscode/settings.json ~/Library/Application\ Support/Code/User
