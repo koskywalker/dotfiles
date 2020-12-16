@@ -79,7 +79,6 @@ POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=207
 # status
 POWERLEVEL9K_STATUS_VERBOSE=true
 POWERLEVEL9K_STATUS_CROSS=true
-POWERLEVEL9K_STATUS_BACKGROUND=none
 
 # ==================================================
 # oh-my-zsh デフォルト設定
