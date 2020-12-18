@@ -110,16 +110,16 @@
   )
 
   # Prompt colors.
-  local white='#FFFFFF'
+  local white='255'
   local grey='242'
-  local green='#3fb950'
-  local red='#da3633'
-  local orange='#f0883e'
-  local yellow='011'
+  local green='002'
+  local red='001'
+  local orange='208'
+  local yellow='003'
   local cyan='123'
-  local blue='#388bfd'
-  local purple='#8957e5'
-  local magenta='#db61a2'
+  local blue='033'
+  local purple='093'
+  local pink='207'
 
   # Defines character set used by powerlevel10k. It's best to let `p10k configure` set it for you.
   typeset -g POWERLEVEL9K_MODE=nerdfont-complete
@@ -528,9 +528,9 @@
   ###################[ command_execution_time: duration of the last command ]###################
   # Execution time color.
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND=0
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND=$magenta
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND=$pink
   # Show duration of the last command if takes at least this many seconds.
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=$magenta
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=$pink
   # Show this many fractional digits. Zero means round to seconds.
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=0
   # Duration format: 1d 2h 3m 4s.
