@@ -27,7 +27,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.external.osxExec": "iTerm.app",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "vetur.validation.template": false,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "window.zoomLevel": 0,
