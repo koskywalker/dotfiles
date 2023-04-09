@@ -1,5 +1,4 @@
 {
-  "bracketPairColorizer.depreciation-notice": false,
   "breadcrumbs.enabled": true,
   "diffEditor.renderSideBySide": false,
   "editor.acceptSuggestionOnEnter": "off",
@@ -29,9 +28,9 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "window.zoomLevel": 0,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.tabSizing": "shrink",
   "workbench.sideBar.location": "left",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "editor.inlineSuggest.enabled": true
 }
