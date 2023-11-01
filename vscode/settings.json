@@ -3,7 +3,7 @@
   "diffEditor.renderSideBySide": false,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "Hack Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "editor.minimap.showSlider": "always",
   "editor.multiCursorModifier": "ctrlCmd",
@@ -24,13 +24,12 @@
     "python"
   ],
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.external.osxExec": "iTerm.app",
+  "terminal.external.osxExec": "Warp.app",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.editor.labelFormat": "short",
   "workbench.editor.tabSizing": "shrink",
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
 }
