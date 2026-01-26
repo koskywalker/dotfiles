@@ -1,0 +1,31 @@
+{
+  "hooks": {
+		"Notification": [
+			{
+				"hooks": [
+					{
+						"command": "terminal-notifier -title 'Claude Code' -subtitle '確認待ち' -message 'Claude Code が許可を求めています' -sound Glass -activate com.microsoft.VSCode",
+						"type": "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"Stop": [
+			{
+				"hooks": [
+					{
+						"command": "terminal-notifier -title 'Claude Code' -subtitle '完了' -message 'Claude Code の処理が完了しました' -sound Default -activate com.microsoft.VSCode",
+						"type": "command"
+					}
+				],
+				"matcher": ""
+			}
+		]
+	},
+  "statusLine": {
+		"command": "bun x ccusage statusline",
+		"padding": 0,
+		"type": "command"
+	}
+}
