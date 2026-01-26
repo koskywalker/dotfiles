@@ -1,14 +1,13 @@
 
 # bun completions
-[ -s "/Users/muraka/.bun/_bun" ] && source "/Users/muraka/.bun/_bun"
+[ -s "{{ .chezmoi.homeDir }}/.bun/_bun" ] && source "{{ .chezmoi.homeDir }}/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-. "/Users/muraka/.deno/env"
 # pnpm
-export PNPM_HOME="/Users/muraka/Library/pnpm"
+export PNPM_HOME="{{ .chezmoi.homeDir }}/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
