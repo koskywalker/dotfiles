@@ -1,5 +1,6 @@
 {
-  "hooks": {
+	"autoUpdatesChannel": "stable",
+	"hooks": {
 		"Notification": [
 			{
 				"hooks": [
@@ -23,7 +24,7 @@
 			}
 		]
 	},
-  "statusLine": {
+	"statusLine": {
 		"command": "bun x ccusage statusline",
 		"padding": 0,
 		"type": "command"
