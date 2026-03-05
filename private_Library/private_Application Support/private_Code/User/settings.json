@@ -4,7 +4,6 @@
 	"editor.minimap.showSlider": "always",
 	"editor.renderWhitespace": "all",
 	"security.promptForLocalFileProtocolHandling": false,
-	"extensions.ignoreRecommendations": true,
 	"diffEditor.codeLens": true,
 	"github.copilot.nextEditSuggestions.enabled": false,
 	"github.copilot.enable": {
@@ -12,17 +11,6 @@
 		"plaintext": false,
 		"markdown": true,
 		"scminput": false
-	},
-	"[dockercompose]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2,
-		"editor.autoIndent": "advanced",
-		"editor.quickSuggestions": {
-			"other": true,
-			"comments": false,
-			"strings": true
-		},
-		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
 	"[github-actions-workflow]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
