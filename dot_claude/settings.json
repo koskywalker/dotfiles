@@ -1,4 +1,12 @@
 {
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(cat > /tmp:*)"
+    ]
+  },
   "hooks": {
     "Notification": [
       {
@@ -25,8 +33,13 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "bun x ccusage statusline",
+    "command": "bunx -y ccstatusline@latest",
     "padding": 0
   },
-  "autoUpdatesChannel": "stable"
+  "enabledPlugins": {
+    "code-review@claude-plugins-official": true
+  },
+  "autoUpdatesChannel": "stable",
+  "voiceEnabled": true,
+  "effortLevel": "high"
 }
