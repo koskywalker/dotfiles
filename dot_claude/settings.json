@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '許可を求めています' -sound Glass -sender com.anthropic.claudefordesktop -activate com.microsoft.VSCode"
+            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '許可を求めています' -sound Glass"
           }
         ]
       },
@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '入力待ちです' -sound Hero -sender com.anthropic.claudefordesktop -activate com.microsoft.VSCode"
+            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '入力待ちです' -sound Hero"
           }
         ]
       }
@@ -26,7 +26,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '処理が完了しました' -sound Default -sender com.anthropic.claudefordesktop -activate com.microsoft.VSCode"
+            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '処理が完了しました' -sound Default"
           }
         ]
       }
