@@ -1,4 +1,7 @@
 {
+  "permissions": {
+    "defaultMode": "auto"
+  },
   "hooks": {
     "Notification": [
       {
@@ -6,7 +9,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '許可を求めています' -sound Glass"
+            "command": "terminal-notifier -title 'Claude Code' -subtitle \"${CLAUDE_PROJECT_DIR##*/}\" -message '許可を求めています' -sound Glass"
           }
         ]
       },
@@ -15,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '入力待ちです' -sound Hero"
+            "command": "terminal-notifier -title 'Claude Code' -subtitle \"${CLAUDE_PROJECT_DIR##*/}\" -message '入力待ちです' -sound Hero"
           }
         ]
       }
@@ -26,7 +29,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -title 'Claude Code' -subtitle \"$(basename \"$CLAUDE_PROJECT_DIR\")\" -message '処理が完了しました' -sound Default"
+            "command": "terminal-notifier -title 'Claude Code' -subtitle \"${CLAUDE_PROJECT_DIR##*/}\" -message '処理が完了しました' -sound Default"
           }
         ]
       }
@@ -38,9 +41,29 @@
     "padding": 0
   },
   "enabledPlugins": {
-    "code-review@claude-plugins-official": true
+    "warp@claude-code-warp": false
   },
+  "extraKnownMarketplaces": {
+    "claude-code-warp": {
+      "source": {
+        "source": "github",
+        "repo": "warpdotdev/claude-code-warp"
+      }
+    },
+    "turso": {
+      "source": {
+        "source": "github",
+        "repo": "tursodatabase/turso-mcp"
+      }
+    }
+  },
+  "effortLevel": "xhigh",
   "autoUpdatesChannel": "stable",
-  "voiceEnabled": true,
-  "effortLevel": "high"
+  "tui": "default",
+  "skipWorkflowUsageWarning": true,
+  "preferredNotifChannel": "notifications_disabled",
+  "remoteControlAtStartup": true,
+  "agentPushNotifEnabled": true,
+  "skipAutoPermissionPrompt": true,
+  "voiceEnabled": true
 }
